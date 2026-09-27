@@ -1,0 +1,25 @@
+---
+---
+
+@use 'abstracts/variables' with (
+  $theme: '{{ site.theme_mode }}'
+);
+
+/* prettier-ignore */
+@use 'main
+{%- if jekyll.environment == 'production' -%}
+  .bundle
+{%- endif -%}
+';
+
+/* append your custom style below */
+
+/* 모바일: 표 셀 줄바꿈 (기본값 nowrap이라 표가 옆으로 길게 늘어남) */
+@media (max-width: 576px) {
+  .content .table-wrapper > table td,
+  .content .table-wrapper > table th {
+    white-space: normal;
+    word-break: keep-all;
+    min-width: 4rem;
+  }
+}
