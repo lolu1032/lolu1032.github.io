@@ -1,6 +1,6 @@
 ---
 title: "JVM 스레드 모델과 Node.js 이벤트 루프 심층 비교 가이드"
-date: 2026-10-19 22:15:00 +0900
+date: 2026-10-19 21:00:00 +0900
 categories: [공부, 아키텍처]
 tags: [jvm, springboot, nodejs, event-loop, thread-model]
 ---
