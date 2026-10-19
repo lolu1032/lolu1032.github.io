@@ -10,16 +10,6 @@ tags: [nodejs, nextjs, springboot, jpa, prisma, architecture]
 
 ---
 
-## 📌 목차
-1. [런타임 & 동시성 모델 비교 (JVM 멀티스레드 vs V8 이벤트 루프)](#1-런타임--동시성-모델-비교)
-2. [백엔드 아키텍처 1:1 매핑 (Spring Boot vs NestJS / Express)](#2-백엔드-아키텍처-11-매핑)
-3. [ORM & 데이터베이스 접근 (Spring Data JPA vs Prisma)](#3-orm--데이터베이스-접근)
-4. [렌더링 & 풀스택 웹 패러다임 (Spring + Thymeleaf vs Next.js App Router)](#4-렌더링--풀스택-웹-패러다임)
-5. [면접 필수 질문 & 모범 답변 템플릿](#5-면접-필수-질문--모범-답변)
-6. [5일 완성 학습 로드맵](#6-5일-완성-학습-로드맵)
-
----
-
 ## 1. 런타임 & 동시성 모델 비교
 
 | 비교 항목 | Java / Spring Boot (전통적 방식) | Node.js (JavaScript / TypeScript) |
